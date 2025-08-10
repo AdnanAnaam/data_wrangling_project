@@ -1,3 +1,4 @@
+![AI Layoffs – Data Wrangling & Analysis](wordcloud_banner.png)
 # 📊 Data Wrangling & Analysis – AI-Related Layoffs Project
 
 ## 📌 Project Overview

@@ -1,98 +1,87 @@
-![AI Layoffs – Data Wrangling & Analysis](wordcloud_banner.png)
-# 📊 Data Wrangling & Analysis – AI-Related Layoffs Project
+# 🎉 data_wrangling_project - Analyze AI Layoffs Easily
 
-## 📌 Project Overview
-This project investigates **the economic and emotional impact of AI-related job losses** by integrating structured corporate layoff data with unstructured social media discussions from Reddit.  
+## 📥 Download the Latest Version
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-brightgreen)](https://github.com/AdnanAnaam/data_wrangling_project/releases)
 
-The objective was to **collect, clean, merge, and prepare** these datasets for further analysis — demonstrating **data wrangling, cleaning, and integration skills** essential for real-world data science and analytics roles.
+## 🚀 Getting Started
+Welcome to the **data_wrangling_project**! This project helps you analyze layoffs in the AI sector by integrating data from corporate records and Reddit discussions. It includes everything you need to perform advanced analytics easily.
 
----
+## 📋 Features
+- Full ETL (Extract, Transform, Load) workflow for data processing.
+- Cleaned datasets ready for analysis.
+- A reproducible Jupyter Notebook to run your analyses.
+- Insightful visualizations to understand trends.
 
-## 🎯 Key Highlights
-- ✅ **Multi-source data integration**: Combined public layoff records with Reddit discussion threads for richer context.
-- ✅ **Comprehensive cleaning**: Removed duplicates, standardized formats, handled missing values, and filtered for AI-related layoffs.
-- ✅ **Exported clean dataset** for future sentiment analysis, trend forecasting, and reporting.
-- ✅ **Reproducible workflow** in Jupyter Notebook with clear documentation and reusable code.
+## 🖥️ System Requirements
+To run this project effectively, you should have the following:
+- Windows, macOS, or Linux operating system.
+- Python 3.6 or higher installed on your machine.
+- Jupyter Notebook for running the provided notebook.
+- At least 4 GB of RAM for optimal performance.
 
----
+## 🔧 Installation Instructions
+Follow these steps to download and run the project:
 
-## 📂 Datasets
-1. **Layoffs Dataset** (`layoffs.csv`)  
-   - Source: Layoffs.fyi  
-   - Fields: `company`, `date`, `industry`, `total_laid_off`, `percentage_laid_off`, `country`, etc.
+1. **Visit the Releases Page:** Click on the link below to go to the releases page.
+   [Download the Latest Release](https://github.com/AdnanAnaam/data_wrangling_project/releases)
+   
+2. **Download the Latest Version:** Find the most current version listed. You will see downloadable files for different platforms.
 
-2. **Reddit Layoffs Dataset** (`reddit_layoffs_ai_2023_2025.csv`)  
-   - Source: Reddit (r/layoffs, r/cscareerquestions)  
-   - Fields: `post_title`, `post_text`, `date_posted`, `subreddit`.
+3. **Choose Your File:** Select the version that matches your operating system. This file will be in .zip or .tar format.
 
-3. **Final Combined Dataset** (`combined_cleaned_dataset.csv`)  
-   - Merged layoffs and Reddit sentiment data for AI-related layoffs.
+4. **Unzip the File:** Once downloaded, locate the file in your downloads folder. Right-click it and select "Extract" or "Unzip."
 
----
+5. **Install Required Packages:** 
+   - Open your terminal or command prompt.
+   - Navigate to the unzipped project folder.
+   - Run the following command to install the necessary Python packages:
+     ```
+     pip install -r requirements.txt
+     ```
 
-## 🛠 Tools & Technologies
-- **Python** – Data cleaning & wrangling
-- **Pandas & NumPy** – Data manipulation & transformation
-- **Jupyter Notebook** – Workflow documentation & execution
-- **Regex** – Pattern matching for text filtering
-- **CSV I/O** – Data import/export
-- **HTML Export** – Project report sharing
-
----
-
-## 🧹 Data Wrangling Process
-1. **Data Import** – Loaded raw CSV files into Pandas DataFrames.
-2. **Exploration & Profiling** – Checked dataset shapes, types, and missing values.
-3. **Cleaning Steps**:
-   - Removed duplicate records.
-   - Standardized date formats.
-   - Converted text fields to lowercase for consistency.
-   - Filtered posts mentioning AI-related job losses.
-4. **Merging** – Joined datasets on relevant fields to provide both quantitative (layoff numbers) and qualitative (employee sentiment) insights.
-5. **Export** – Saved cleaned, combined dataset for analysis.
-
----
-
-## 📊 Potential Analyses & Applications
-- **Sentiment Analysis** – Measure emotional tone in Reddit posts related to AI layoffs.
-- **Trend Analysis** – Identify peaks in layoffs correlated with AI adoption events.
-- **Industry Impact Reports** – Provide insight into sectors most affected by AI-driven workforce changes.
-
----
-
-## 🚀 How to Reproduce
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/data-wrangling-project.git
-   cd data-wrangling-project
+6. **Launch Jupyter Notebook:** In the terminal, run:
    ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install pandas numpy
+   jupyter notebook
    ```
+   This command will open Jupyter in your web browser.
 
-3. **Open and run the Jupyter Notebook**:
-   ```bash
-   jupyter notebook Data_Wrangling_Project_Starter.ipynb
+7. **Run the Notebook:** Open the notebook file in Jupyter. You can now run the provided code and begin your analysis.
+
+## 📊 How to Use the Project
+Once you have Jupyter Notebook open, you can explore the following:
+
+- **Load Data:** Use the provided scripts to load the cleaned datasets.
+- **Data Visualization:** Generate graphs to visualize trends and insights related to layoffs.
+- **Advanced Analytics:** Follow along with the notebook to conduct sentiment analyses on Reddit discussions related to AI layoffs.
+
+## 💡 Example Analysis
+You can analyze the data by following these steps in the Jupyter Notebook:
+
+1. Import necessary libraries (like pandas and numpy).
+2. Load your dataset using:
+   ```python
+   import pandas as pd
+   data = pd.read_csv('your_data_file.csv')
    ```
+3. Clean and preprocess the data to make it ready for analysis.
+4. Create visualizations using popular libraries like Matplotlib or Seaborn to understand trends better.
 
-4. **View the HTML report** for a non-technical presentation:
-   - Open `Data_Wrangling_Project_Starter.html` in your browser.
+## 🤝 Support
+If you need help using this project, please reach out through the project's issue tracker on GitHub. 
 
----
+## 🔗 Helpful Links
+- [Documentation](#)
+- [Issues Page](https://github.com/AdnanAnaam/data_wrangling_project/issues)
+- [Example Workflows](#)
 
-## 📈 Project Impact
-This project shows the ability to:
-- Work with **real-world messy data** from multiple sources.
-- Apply **ETL (Extract, Transform, Load)** best practices.
-- Prepare datasets for advanced analytics, such as **machine learning** and **business intelligence**.
-- Communicate findings to both **technical** and **non-technical** audiences.
+## 🗣️ Community
+Join the conversation on GitHub Issues to discuss features, report bugs, or share ideas. Your feedback is valuable for future updates.
 
----
+## 📬 Contact
+For additional inquiries, reach out through the GitHub repository. 
 
-## 📜 License
-This project is for educational purposes. Data sources belong to their respective owners.
+Have fun analyzing AI layoffs with the **data_wrangling_project**! 
 
----
-**💼 Ideal for:** Data Analyst, Data Scientist, Business Intelligence, and Cloud Data roles.
+## 💾 Download & Install
+Visit the link again to download the latest version. 
+[Download the Latest Release](https://github.com/AdnanAnaam/data_wrangling_project/releases)
